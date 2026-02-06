@@ -32,7 +32,6 @@ int main() {
         Counter c3, c4, c5;
         cout << "After creating 3 more objects: " << Counter::getCount() << endl;
     }
-    
     cout << "After block scope ends: " << Counter::getCount() << endl;
     
     return 0;
